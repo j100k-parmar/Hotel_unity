@@ -1,0 +1,645 @@
+    body {
+        font-family: 'Work Sans', sans-serif;
+        background-color: #fff;
+    }
+    
+    .slii {
+        width: 100%;
+        /* height: 500px; */
+        margin-bottom: 50px;
+        margin: auto;
+    }
+    
+    .slii ul li img {
+        height: 500px;
+    }
+    
+    .services {
+        margin-bottom: 150px;
+    }
+    /* navbar */
+    
+    .carousel-item {
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        background-size: cover;
+    }
+    
+    .carousel-caption {
+        bottom: 270px;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 45px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+    
+    .carousel-caption p {
+        width: 75%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #bf7012;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .navbar-toggler {
+        background: #fff;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .nav-link {
+        padding: .2rem 1rem;
+    }
+    
+    .nav-link.active,
+    .nav-link:focus {
+        color: #3e4555;
+    }
+    
+    hr {
+        background-color: #bf7012;
+        opacity: 1;
+    }
+    
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+    }
+    
+    .navbar-brand img {
+        width: 100px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #bf7012;
+        font-weight: 600;
+    }
+    
+    .contact_info {
+        position: absolute;
+        right: 60px;
+        top: 0;
+        color: #bf7012;
+        background-color: white;
+        padding: 2px 4px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .data ul li a {
+        text-decoration: none;
+    }
+    
+    .above_info {
+        position: absolute;
+        top: 0;
+    }
+    
+    .enquiry a {
+        background-color: #bf7012;
+    }
+    
+    .logo {
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    .nav-item a {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .nav-item a:hover {
+        color: #bf7012;
+    }
+    
+    .dropdown button {
+        background: none;
+        color: white;
+    }
+    
+    .dropdown-item {
+        color: white;
+    }
+    
+    .carousel-item img {
+        height: 90vh;
+    }
+    
+    .navbar {
+        transition: 500ms ease;
+        background: #0000003b;
+    }
+    
+    .navbar.scrolled {
+        background: black;
+    }
+    /* .navbar {
+    background: rgb(26, 65, 97);
+} */
+    
+    .enquiry {
+        background-color: white;
+        position: absolute;
+        top: 430px;
+        left: 140px;
+        width: 80%;
+        padding: 5px;
+    }
+    
+    .enquiry h2 {
+        color: rgb(26, 65, 97);
+    }
+    /* select {
+    width: 100%;
+} */
+    
+    .enquiry input,
+    select {
+        margin: 8px 8px;
+        width: 180px;
+    }
+    
+    .about {
+        position: absolute;
+        top: 250px;
+        left: 150px;
+        color: white;
+    }
+    
+    .about p {
+        color: gray;
+        background: #0000003b;
+        width: 40%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    
+    .about h1 {
+        background-color: #00000042;
+        display: inline-block;
+        color: #bf7012;
+    }
+    
+    .carousel-item::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    .accomodation {
+        color: gray;
+    }
+    
+    .hotel_img {
+        border-radius: 10px;
+    }
+    
+    .hotel_img img {
+        border-radius: 10px;
+    }
+    
+    .hotel_packages {
+        background-color: #f8f9fb;
+    }
+    
+    .read a {
+        background-color: rgb(26, 65, 97);
+    }
+    
+    .s {
+        width: 170px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #bf7012;
+        border-radius: 50%;
+    }
+    
+    .s:hover {
+        background-color: #bf7012;
+        color: white;
+        transition: 1s;
+        border-radius: 50%;
+    }
+    
+    .booking {
+        background-color: rgb(217, 217, 245);
+    }
+    
+    .booking a {
+        background-color: #bf7012;
+    }
+    
+    .prev,
+    .next {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        color: rgb(26, 65, 97);
+    }
+    
+    .prev:hover {
+        border: 2px solid black;
+    }
+    
+    .next:hover {
+        border: 2px solid black;
+    }
+    
+    .social div {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+    }
+    
+    .address_info {
+        background-color: rgb(26, 65, 97);
+    }
+    
+    h1 {
+        font-family: 'Playfair Display', serif;
+        color: #bf7012;
+    }
+    /* stay.html */
+    
+    .stay {
+        background-image: url(../img/stay_banner.jpeg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .photos {
+        background-color: #d9d9ef;
+    }
+    /* .photos a {
+        background-color: #bf7012;
+        font-size: 20px;
+    } */
+    
+    .hotel_packages .btn {
+        background-color: #bf7012;
+        font-size: 20px;
+    }
+    
+    .stay_about p,
+    .photos p {
+        color: gray;
+        font-size: 20px;
+    }
+    
+    .photos img {
+        border-radius: 5px;
+    }
+    
+    .photos img:hover {
+        opacity: 0.7;
+        cursor: zoom-in;
+    }
+    
+    .service {
+        color: gray;
+    }
+    /* gallary.html */
+    
+    .gallary {
+        background-image: url(../img/gallary_banner.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    /* contact.html */
+    
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        display: none;
+    }
+    
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .overlay a:hover,
+    .overlay a:focus {
+        color: black;
+    }
+    
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    
+    .dropdown :hover {
+        color: #bf7012;
+    }
+    
+    footer {
+        background-color: #3e4555;
+    }
+    
+    footer .btn {
+        color: white;
+        background-color: #3e4555;
+    }
+    
+    footer .btn:hover {
+        color: black;
+        background-color: #bf7012;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .contact_page h2 {
+        color: #bf7012;
+    }
+    /* package */
+    
+    .rooms {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .rooms img {
+        width: 100%;
+        height: 300px;
+        transition: .3s all ease-in-out;
+        transform: scale(1);
+    }
+    
+    .rooms img:hover {
+        transform: scale(1.2);
+    }
+    /* .money {
+    width: 180px;
+    background-color: rgb(26, 65, 97);
+    color: white;
+    padding: 0;
+} */
+    
+    .pkg_info .btn {
+        background-color: rgb(26, 65, 97);
+    }
+    /* .pkg {
+    box-shadow: 2px 4px 15px 2px grey;
+} */
+    
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+    /* Responsive */
+    
+    @media only screen and (max-width:428px) {
+        .banner img {
+            height: 100vh;
+        }
+        .about p {
+            font-size: 20px;
+        }
+        .about h1 {
+            font-size: 30px !important;
+        }
+        .overlay {
+            display: block;
+        }
+        span {
+            display: block;
+            text-align: left;
+        }
+        .menu {
+            display: none;
+        }
+        .enquiry input {
+            margin: 6px 0;
+            width: 75%;
+        }
+        .enquiry {
+            bottom: 6px;
+            left: 65px;
+            top: 177px;
+            text-align: center;
+        }
+        .enquiry select {
+            width: 75%;
+        }
+        .logo {
+            width: 50%;
+            height: 15%;
+            margin: auto;
+            padding-top: 30px;
+            border-radius: 50%;
+        }
+        .accomodation .row {
+            flex-direction: column;
+        }
+        /* .services {
+            overflow: auto;
+            white-space: nowrap;
+        } */
+        .s {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .address_info .row {
+            flex-direction: column;
+        }
+        .photos .row {
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .contact {
+            flex-direction: column;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+        .about {
+            top: 200px;
+            left: 0;
+        }
+        .navbar {
+            background-color: black;
+        }
+    }
+    
+    @media only screen and (min-width:428px) and (max-width:775px) {
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: black;
+        }
+        .enquiry {
+            margin-left: 30px;
+        }
+        .enquiry input,
+        select {
+            width: 45%;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        /* .services {
+            overflow: auto;
+            white-space: nowrap;
+        } */
+        .s {
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .address_info .row {
+            flex-direction: column;
+        }
+        .photos .row {
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+        .about {
+            top: 215px;
+            left: 25px;
+        }
+        span {
+            display: block;
+            text-align: left;
+        }
+    }
+    
+    @media only screen and (min-width:775px) and (max-width:1028px) {
+        .enquiry {
+            left: 90px;
+            justify-content: center;
+            align-items: center;
+        }
+        .enquiry input,
+        select {
+            margin: 20px 0 0 40px;
+        }
+        select {
+            width: 26%;
+        }
+        /* .services {
+            overflow: auto;
+            white-space: nowrap;
+        } */
+        .s {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe {
+            width: 100%;
+            height: 80vh;
+        }
+    }
+    
+    .form-outline label {
+        position: absolute;
+        top: 20px;
+    }
+    /* Scrollbar */
+    /* width */
+    
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        background: #3e4555;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: black;
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #bf7012;
+    }

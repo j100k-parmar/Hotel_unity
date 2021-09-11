@@ -20,10 +20,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <link rel="stylesheet" href="CSS/hotel.css">
     <link rel="stylesheet" href="CSS/gallery.css">
     <title>Hotel Unity INN</title>
+    <style type="text/css">
+        .item {
+            transition: .5s ease-in-out;
+        }
+        
+        .item:hover {
+            filter: brightness(80%);
+        }
+    </style>
 </head>
 
 <body>
@@ -232,23 +246,55 @@
 
                 <p class="text-center ">Catch a glimpse of what to expect from your stay at the hotel. Majestic views, magnificent interiors, mouthwatering delicacies and much much more.</p>
             </div>
-            <div class="container">
-                <div class="gallery_new">
+            <div class="container-fluid">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/1.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/1.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/2.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/2.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/3.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/3.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/4.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/4.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/5.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/5.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/6.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/6.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/7.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/7.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/8.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/8.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="img/9.jpeg" class="fancybox" data-fancybox=gallery1>
+                            <img src="img/9.jpeg" width="100%" height="100%" alt="">
+                        </a>
+                    </div>
 
-                    <a href="img/1.jpeg" data-lightbox="mygallery"><img src="img/1.jpeg" alt=""></a>
-                    <a href="img/2.jpeg" data-lightbox="mygallery"><img src=" img/2.jpeg " alt=" "></a>
-                    <a href="img/3.jpeg " data-lightbox="mygallery"><img src="img/3.jpeg" alt=""></a>
 
-                </div>
-                <div class="gallery_new">
-                    <a href="img/4.jpeg" data-lightbox="mygallery"><img src=" img/4.jpeg " alt=" "></a>
-                    <a href="img/5.jpeg " data-lightbox="mygallery"><img src="img/5.jpeg" alt=""></a>
-                    <a href="img/6.jpeg " data-lightbox="mygallery"><img src="img/6.jpeg" alt=""></a>
-                </div>
-                <div class="gallery_new">
-                    <a href="img/7.jpeg" data-lightbox="mygallery"><img src=" img/7.jpeg " alt=" "></a>
-                    <a href="img/8.jpeg " data-lightbox="mygallery"><img src="img/8.jpeg" alt=""></a>
-                    <a href="img/9.jpeg " data-lightbox="mygallery"><img src="img/9.jpeg" alt=""></a>
                 </div>
             </div>
         </div>
